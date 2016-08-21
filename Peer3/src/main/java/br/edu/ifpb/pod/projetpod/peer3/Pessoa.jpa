@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jpa:entity-mappings jaxb-support="false" id="_14718131999591" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_2_1.xsd" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:jpa="http://java.sun.com/xml/ns/persistence/orm" xmlns:ns4="http://nbmodeler.java.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <jpa:entity jaxb-root-element="false" static-metamodel="false" abstract="false" class="Pessoa" visibile="true" minimized="false" id="_1471813218686">
+        <jpa:attributes>
+            <jpa:id name="cpf" attribute-type="String" visibile="true" id="_14718132267835">
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" length="14"/>
+                <jpa:generated-value/>
+            </jpa:id>
+            <jpa:basic name="nome" attribute-type="String" visibile="true" id="_14718132294126">
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true"/>
+            </jpa:basic>
+        </jpa:attributes>
+    </jpa:entity>
+    <jpa:diagram id="_14718131999602">
+        <plane elementRef="_14718131999591" id="_14718131999603_p">
+            <shape elementRef="_1471813218686" id="_1471813218686_gui">
+                <Bounds x="436.0" y="188.0" width="139.0" height="92.0"/>
+            </shape>
+        </plane>
+    </jpa:diagram>
+</jpa:entity-mappings>
